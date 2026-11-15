@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Playstation', 'Xbox', 'nintendo']
+
+roboflow:
+  workspace: trabalho-final-g2
+  project: marcas-de-consoles
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trabalho-final-g2/marcas-de-consoles/dataset/1
